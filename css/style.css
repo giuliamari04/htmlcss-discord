@@ -91,7 +91,11 @@ h2{
 /* main */
 
 main section{
-    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.container-main{
+    padding: 100px 0;
 }
 
 section:nth-child(even){
@@ -105,8 +109,27 @@ section:nth-child(even){
     flex-wrap: wrap;
     align-content: center;
 }
-section{
-    padding-top: 50px;
+
+
+.onda{
+    width: 100%;
+    height: 60px;
+    background-image: url(../img/wave.svg);
+    background-color: white;
+    color: var(--color-sfondowhite);
+}
+
+.onda-a-rovescio{
+        width: 100%;
+        height: 60px;
+        background-image: url(../img/wave.svg);
+        background-color: white;
+        color: var(--color-sfondowhite);
+        transform: rotate(180deg);
+    }
+
+.ultima-sezione{
+    text-align: center;
 }
 
 /* flex */
