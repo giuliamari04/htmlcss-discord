@@ -1,0 +1,18 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-purple: #7087da;
+	--color-ble: #2a5ee8;
+	--color-whitetext: #f6f6f6;
+	--color-sfondo: #23272a;
+	--color-sfondowhite: #e3e1e1;
+}
+
+.debug{
+    border: 2px solid black;
+}
