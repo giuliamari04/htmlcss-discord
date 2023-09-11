@@ -57,7 +57,7 @@ a, a:hover{
 }
 
 h2{
-    padding: 20px 0;
+    padding: 20px;
     font-size: 2em;
 }
 
@@ -75,7 +75,7 @@ h2{
     border-radius: 50px;
     background-color: var(--color-sfondowhite);
     color: var(--color-sfondo);
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ h2{
     border-radius: 50px;
     background-color: var(--color-sfondo);
     color: var(--color-whitetext);
-    padding:10px;
+    padding:15px;
     text-decoration: none;
 }
 
@@ -120,18 +120,33 @@ section:nth-child(even){
 }
 
 .onda-a-rovescio{
-        width: 100%;
-        height: 60px;
-        background-image: url(../img/wave.svg);
-        background-color: white;
-        color: var(--color-sfondowhite);
-        transform: rotate(180deg);
-    }
+    width: 100%;
+    height: 60px;
+    background-image: url(../img/wave.svg);
+    background-color: white;
+    color: var(--color-sfondowhite);
+    transform: rotate(180deg);
+}
 
 .ultima-sezione{
     text-align: center;
 }
 
+.bottone-violetto{
+    border-radius: 50px;
+    background-color: var(--color-purple);
+    color: var(--color-whitetext);
+    padding:15px;
+}
+.div-stelline{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: auto 60% ;
+    background-position: center top;   
+}
+.padding-ultimo-bottone{
+    padding: 40px;
+}
 /* flex */
 
 .d-flex{
