@@ -93,8 +93,20 @@ h2{
 main section{
     padding: 60px 0;
 }
-main :nth-child(even){
+
+section:nth-child(even){
     background-color: var(--color-sfondowhite);
+}
+
+.testo-main{
+    font-size: 1.2em;
+    padding: 50px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+section{
+    padding-top: 50px;
 }
 
 /* flex */
@@ -110,7 +122,20 @@ main :nth-child(even){
 .f-center{
     justify-content: center;  
 }
+/* float */
+.pull-left{
+    float: left;
+}
 
+.pull-right{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 footer{
     background-color: var(--color-sfondo);
     color: var(--color-whitetext);
