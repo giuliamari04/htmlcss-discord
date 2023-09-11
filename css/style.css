@@ -7,12 +7,80 @@
 
 :root {
 	--color-purple: #7087da;
-	--color-ble: #2a5ee8;
+	--color-blu: #2a5ee8;
 	--color-whitetext: #f6f6f6;
 	--color-sfondo: #23272a;
 	--color-sfondowhite: #e3e1e1;
 }
+body{
+    background-color:white ;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+/* header */
+header{
+    background-color: var(--color-blu);
+}
 
+ul{
+    list-style: none;
+}
+
+a, a:hover{
+    color: var(--color-whitetext);
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+/* hero */
+#hero .container{
+    min-height: 500px;
+}
+#hero{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--color-whitetext);
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+
+}
+.hero-content{
+    max-width: 800px;
+}
+
+/* main */
+
+main section{
+    padding: 60px 0;
+}
+main :nth-child(even){
+    background-color: var(--color-sfondowhite);
+}
+
+/* flex */
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.f-center{
+    justify-content: center;  
+}
+
+footer{
+    background-color: var(--color-sfondo);
+    color: var(--color-whitetext);
+}
 .debug{
     border: 2px solid black;
 }
