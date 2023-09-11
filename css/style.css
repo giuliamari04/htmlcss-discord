@@ -54,6 +54,38 @@ a, a:hover{
     max-width: 800px;
 }
 
+h2{
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.testo-header{
+    padding: 0 30px;
+    font-size: 1.3em;
+}
+
+.div-bottoni{
+    padding: 10px;
+}
+
+.bottone-bianco{
+    display: inline-block;
+    border-radius: 50px;
+    background-color: var(--color-sfondowhite);
+    color: var(--color-sfondo);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.bottone-nero{
+    display: inline-block;
+    border-radius: 50px;
+    background-color: var(--color-sfondo);
+    color: var(--color-whitetext);
+    padding:10px;
+    text-decoration: none;
+}
+
 /* main */
 
 main section{
