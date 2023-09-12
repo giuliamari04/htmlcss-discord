@@ -25,9 +25,12 @@ body{
     padding: 0 5px;
 }
 /* header */
-header{
+#header{
     background-color: var(--color-blu);
     padding-top: 10px;
+}
+header{
+    background-color: var(--color-sfondo);
 }
 
 ul{
@@ -185,19 +188,21 @@ section:nth-child(even){
 .f-center{
     justify-content: center;  
 }
-/* float */
-.pull-left{
-    float: left;
-}
-
-.pull-right{
-    float: right;
-}
-
+/* flex */
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
 }
 /* footer */
 footer{
