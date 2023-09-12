@@ -24,6 +24,13 @@ body{
     margin: 0 auto;
     padding: 0 5px;
 }
+
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 0;
+    justify-content: center;
+}
 /* header */
 #header{
     background-color: var(--color-blu);
@@ -68,6 +75,10 @@ a.bottone-violetto:hover{
 #hero .container{
     min-height: 500px;
 }
+
+div.container2{
+    min-height: 664px;
+}
 #hero{
     background-image: url('../img/jumbo.png');
     background-size: cover;
@@ -81,10 +92,23 @@ a.bottone-violetto:hover{
 .hero-content{
     max-width: 800px;
 }
-
+.hero-second-page{
+    color: var(--color-whitetext); 
+    display: flex;
+    flex-direction: column; 
+    padding: 0 20px;
+    width: 50%;
+}
 h2{
     padding: 20px;
     font-size: 2em;
+}
+
+.titolo-grande{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    line-height: 0.8;
 }
 
 .testo-header{
@@ -94,6 +118,7 @@ h2{
 
 .div-bottoni{
     padding: 10px;
+    padding-top: 30px;
     display: inline-block;
 }
 
