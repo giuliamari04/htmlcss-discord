@@ -216,12 +216,12 @@ section:nth-child(even){
     justify-content: center;  
 }
 
-
+/* main seconda pagina */
 
 .blocchi-colonne {
     display: flex; 
-    justify-content: space-between; 
-    padding:  0 20%;
+    justify-content: space-around; 
+    padding:  0 10%;
   }
   
   .column {
@@ -252,8 +252,10 @@ section:nth-child(even){
   .testo-box{
     font-size: 1.5em;
     padding: 10px;
+    text-align: center;
+   
   }
-
+  
   .primo-box{
     background-image: url(../img/foto1-colonna-1.svg);
     margin-top: 24px;
@@ -275,9 +277,10 @@ section:nth-child(even){
     background-size: 80%;
   }
 
-
-
- 
+  .quinto-box{
+    height: 300px;
+    padding: 10%;
+  }
 
 
 /* flex */
@@ -296,6 +299,7 @@ section:nth-child(even){
     display: flex;
     flex-direction: row-reverse;
 }
+
 /* footer */
 footer{
     background-color: var(--color-sfondo);
