@@ -200,6 +200,19 @@ section:nth-child(even){
 .padding-ultimo-bottone{
     padding: 40px;
 }
+
+.cubotti-page2{
+    background-color: var(--color-sfondowhite);
+    
+}
+
+.foto {
+    height: 100px; /* Altezza della foto visibile */
+    background-image: url('url-della-tua-foto.jpg'); /* Specifica l'URL dell'immagine */
+    background-position: center top; /* Posizione dell'immagine */
+    background-size: cover; /* Copri l'intera area dell'elemento con l'immagine */
+  }
+
 /* flex */
 
 .d-flex{
@@ -213,6 +226,63 @@ section:nth-child(even){
 .f-center{
     justify-content: center;  
 }
+
+
+
+.blocchi-colonne {
+    display: flex; /* Abilita la modalità flexbox */
+    justify-content: space-between; /* Distribuisci lo spazio tra le colonne */
+    padding:  0 20%;
+  }
+  
+  .column {
+    flex-basis: 48%; /* Larghezza delle colonne (puoi personalizzare la dimensione) */
+    margin: 20px;
+  }
+  
+  .item {
+    margin: 10px 0; /* Spazio tra gli elementi all'interno delle colonne */
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+    
+  }
+  .box{
+    background-color: var(--color-sfondowhite);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center 200px;
+    width: 100%;
+    height: 500px;
+  }
+
+  .primo-box{
+    background-image: url(../img/foto1-colonna-1.svg);
+    margin-top: 24px;
+   
+  }
+
+  .secondo-box{
+    background-image: url(../img/foto2-colonna1.svg);
+  }
+
+  .terzo-box{
+    background-image: url(../img/foto1-colonna2.svg);
+  }
+
+  .quarto-box{
+    background-image: url(../img/foto2-colonna2.svg);
+  }
+
+
+
+ 
+
+
 /* flex */
 .clearfix::after{
     content: "";
@@ -274,5 +344,5 @@ div.container-footer >ul{
     border-top: 2px solid var(--color-purple);
 }
 .debug{
-    border: 2px solid rgb(255, 251, 251);
+    border: 2px solid black;
 }
