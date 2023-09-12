@@ -201,17 +201,6 @@ section:nth-child(even){
     padding: 40px;
 }
 
-.cubotti-page2{
-    background-color: var(--color-sfondowhite);
-    
-}
-
-.foto {
-    height: 100px; /* Altezza della foto visibile */
-    background-image: url('url-della-tua-foto.jpg'); /* Specifica l'URL dell'immagine */
-    background-position: center top; /* Posizione dell'immagine */
-    background-size: cover; /* Copri l'intera area dell'elemento con l'immagine */
-  }
 
 /* flex */
 
@@ -230,18 +219,18 @@ section:nth-child(even){
 
 
 .blocchi-colonne {
-    display: flex; /* Abilita la modalità flexbox */
-    justify-content: space-between; /* Distribuisci lo spazio tra le colonne */
+    display: flex; 
+    justify-content: space-between; 
     padding:  0 20%;
   }
   
   .column {
-    flex-basis: 48%; /* Larghezza delle colonne (puoi personalizzare la dimensione) */
+    flex-basis: 48%; 
     margin: 20px;
   }
   
   .item {
-    margin: 10px 0; /* Spazio tra gli elementi all'interno delle colonne */
+    margin: 10px 0; 
     padding: 10px;
     border-radius: 20px;
     display: flex;
@@ -268,6 +257,7 @@ section:nth-child(even){
 
   .secondo-box{
     background-image: url(../img/foto2-colonna1.svg);
+    
   }
 
   .terzo-box{
