@@ -249,6 +249,11 @@ section:nth-child(even){
     height: 500px;
   }
 
+  .testo-box{
+    font-size: 1.5em;
+    padding: 10px;
+  }
+
   .primo-box{
     background-image: url(../img/foto1-colonna-1.svg);
     margin-top: 24px;
@@ -257,6 +262,7 @@ section:nth-child(even){
 
   .secondo-box{
     background-image: url(../img/foto2-colonna1.svg);
+    background-size: 80%;
     
   }
 
@@ -266,6 +272,7 @@ section:nth-child(even){
 
   .quarto-box{
     background-image: url(../img/foto2-colonna2.svg);
+    background-size: 80%;
   }
 
 
