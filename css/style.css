@@ -320,9 +320,10 @@ select{
     color: var(--color-whitetext);
 }
 .loghi-social{
-    justify-content: space-between;
-    padding: 20px;
+    padding: 5%;
+    font-size: 1.2em;
 }
+
 .container-footer{
     display: flex;
     flex-flow: row wrap;
