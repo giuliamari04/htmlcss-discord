@@ -13,6 +13,7 @@
 	--color-sfondowhite: #e3e1e1;
     --colore-cambio-bottone-nero: #313338;
     --colore-cambio-bottone-viola:#7983f5;
+    --colore-cubotti:#f6f6f6;
 }
 body{
     background-color:white ;
@@ -241,7 +242,7 @@ section:nth-child(even){
     
   }
   .box{
-    background-color: var(--color-sfondowhite);
+    background-color: var(--colore-cubotti);
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center 200px;
@@ -264,7 +265,7 @@ section:nth-child(even){
 
   .secondo-box{
     background-image: url(../img/foto2-colonna1.svg);
-    background-size: 80%;
+    background-size: 50%;
     
   }
 
@@ -274,12 +275,17 @@ section:nth-child(even){
 
   .quarto-box{
     background-image: url(../img/foto2-colonna2.svg);
-    background-size: 80%;
+    background-size: 50%;
   }
 
   .quinto-box{
     height: 300px;
-    padding: 10%;
+    padding: 10% 15%;
+  }
+
+  .testo-quinto-box{
+    font-size: 1.5em;
+    padding-bottom: 10px;
   }
 
   .padding-colonna{
@@ -314,6 +320,7 @@ footer{
 }
 .container-select{
     padding: 20px;
+    padding-top: 30%;
 }
 select{
     background-color: var(--color-sfondo);
