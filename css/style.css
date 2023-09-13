@@ -282,6 +282,9 @@ section:nth-child(even){
     padding: 10%;
   }
 
+  .padding-colonna{
+    padding-top: 200px;
+  }
 
 /* flex */
 .clearfix::after{
